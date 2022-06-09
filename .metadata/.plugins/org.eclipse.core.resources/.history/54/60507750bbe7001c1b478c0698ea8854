@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitWidth="499.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/javalogo.png" />
+         </image>
+      </ImageView>
+      <HBox allignment="CENTER" spacing="20.0">
+         <children>
+            <Button text="이전"/>
+            <Button text="다음">
+				<HBox.hgrow><Priority fx:constant="ALWAYS"/></HBox.hgrow>
+				<maxWidth><Double fx:constant="MAX_VALUE"/></maxWidth>
+			</Button>
+         </children>
+         <VBox.margin>
+                  <Insets top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
