@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox alignment="CENTER" prefHeight="50.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="lblId" style="-fx-background-color: black; -fx-text-fill: yellow; -fx-padding: 5;" text="검정바탕,노란글씨" textFill="YELLOW" />
+      <Label style="-fx-background-color: blue; -fx-text-fill: white; -fx-padding: 5;" styleClass="lblClass" text="파란바탕,흰글씨" />
+      <Label style="-fx-background-color: blue; -fx-text-fill: white; -fx-padding: 5;" styleClass="lblClass" text="파란바탕,흰글씨" />
+   </children>
+</HBox>
